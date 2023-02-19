@@ -10,7 +10,7 @@ const emit = defineEmits(["recherche"]);
 <template>
   <form @submit.prevent="$emit('recherche',motsCle )">
     <div class="form-group">
-      <input class ="ligne" type="text" v-model="motsCle" placeholder="Rentrer le titre du livre" />
+      <input class ="ligne" type="text" v-model="motsCle" placeholder="Titre du livre" />
     </div>
       
     <input type="submit" value="rechercher" />
@@ -30,7 +30,7 @@ form {
         padding:3px;
         
         border-radius: 2px;
-        border: 1px solid rgb(4, 163, 232);
+        border: 1px solid white;
         font-size: 16px;
         transition: all 0.3s ease-in-out;
       }
@@ -45,21 +45,23 @@ form {
       input[type="submit"] {
         padding: 5px 10px;
         border-radius: 5px;
-        background-color: #00BFFF;
+        background-color: rgba(114, 113, 113, 0.753);
         color: white;
         border: none;
-        font-size: 16px;
+        font-size: 13px;
         
         transition: all 0.3s ease-in-out;
       }
       
       input[type="submit"]:hover {
-        background-color: #00BFFF;
+        background-color: white;
       }
       
       .form-group {
         margin: 10px 0;
       }
+
+
       
     
 

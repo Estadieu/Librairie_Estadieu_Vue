@@ -9,9 +9,11 @@
 
 <style scoped>
 .header {
-        background-color: #00BFFF;
+        background-color: ;
         text-align: center;
         height: 100px;
+        width: 70%;
+        margin:auto;
       }
       div {
         margin: 0;
@@ -20,7 +22,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-        background-color: #00BFFF;
+        background-color: black;
       }
       p {
         font-family: Geneva, sans-serif;

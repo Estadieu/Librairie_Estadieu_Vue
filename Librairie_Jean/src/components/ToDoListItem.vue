@@ -31,19 +31,19 @@ const emit = defineEmits(["deleteC", "faireC","decreC"]);
 li {
   
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: auto;
-  width: 50%;
+  width: 70%;
   font-family:  Georgia, serif;
   color: white;
-  background-color: rgba(117, 110, 110, 0.753);
+  background-color: rgba(114, 113, 113, 0.753);
   transition: all 0.5s ease-in-out;
 }
 
 li:hover {
   transform: scale(1.3);
   background-color: #7dcdcd(130, 92, 147);
-  box-shadow: 2px 2px 5px #00BFFF;
+  box-shadow: 2px 2px 5px black;
   
 }
 

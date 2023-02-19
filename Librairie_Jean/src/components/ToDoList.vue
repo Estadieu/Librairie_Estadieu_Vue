@@ -186,9 +186,22 @@ onMounted(() => {
 
 <style scoped>
 .container{
-  background: rgba(8, 0, 0, 0.753);
-  height: 600px;
-  border: thick double white;
+  margin: auto;
+  background: #00BFFF;
+  width: 70%;
+  border: solid 1px rgba(114, 113, 113, 0.753);
+  transition: all 0.8s ease-in-out;
+  
+}
+
+.container:hover{
+  margin: auto;
+  background: #00BFFF;
+  width: 90%;
+  border: solid px black;
+  
+  box-shadow: 4px 4px 10px black;
+  
   
 }
 

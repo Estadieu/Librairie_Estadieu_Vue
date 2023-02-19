@@ -20,8 +20,8 @@ const emit = defineEmits(["addC"]);
 
 <style scoped>
 form {
-        width: 500px;
-        margin: 50px auto;
+        width: 50%;
+        margin: 5% auto;
         text-align: center;
       }
 
