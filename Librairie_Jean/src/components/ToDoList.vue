@@ -77,7 +77,6 @@ function handlerRecherche(motsCle) {
   let titre = livre.titre
   let prix = livre.prix
 
-  livre.ajouter()
   let qtestock = livre.qtestock+1; 
 
 
