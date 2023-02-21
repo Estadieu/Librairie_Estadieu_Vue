@@ -9,7 +9,7 @@
 
 <style scoped>
 .header {
-        background-color: ;
+        
         text-align: center;
         height: 100px;
         width: 70%;
@@ -32,7 +32,7 @@
         background: linear-gradient(90deg, #00BFFF, #fff, #004b64);
         background-repeat: no-repeat;
         background-size: 70%;
-        animation: animate 15s infinite;
+        animation: animate 10s infinite;
         -webkit-background-clip: text;
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
         box-shadow: 4px 4px 10px rgba(255, 255, 255, 0);
