@@ -21,10 +21,10 @@ import ToDoDooter from "./components/ToDoFooter.vue";
 <style scoped>
 
 .anim {
-  height: 900px;
+  height: 1000px;
   --s: 100px; /* control the size */
   --c1:  #00BFFF;
-  --c2: black;
+  --c2: rgb(1, 7, 98);
   
   --_s: calc(2*var(--s)) calc(2*var(--s));
   --_g: var(--_s) conic-gradient(at 40% 40%,#0000 75%,var(--c1) 0);
@@ -77,7 +77,7 @@ import ToDoDooter from "./components/ToDoFooter.vue";
 }
 
 .bibli{
-  padding-top: 3%;
+  padding-top: 2%;
 }
 
 

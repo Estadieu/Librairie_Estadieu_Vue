@@ -31,13 +31,15 @@ const emit = defineEmits(["deleteC", "faireC","decreC"]);
 li {
   
   margin: auto;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   padding: auto;
   width: 70%;
   font-family:  Georgia, serif;
   color: white;
-  background-color: rgba(114, 113, 113, 0.753);
-  transition: all 0.5s ease-in-out;
+  background-color: rgb(1, 7, 98);
+  transition: all 0.2s ease-in-out;
+  border: solid 2px white;
+  box-shadow: rgba(2, 154, 60, 0.007) 0px 0px 0px 2px inset, rgb(223, 220, 220) 10px -10px 0px -3px, rgb(212, 211, 211) 10px -10px, rgb(141, 140, 140) 20px -20px 0px -3px, rgb(125, 125, 124) 20px -20px, rgb(94, 94, 94) 30px -30px 0px -3px, rgb(70, 70, 70) 30px -30px;;
 }
 
 li:hover {

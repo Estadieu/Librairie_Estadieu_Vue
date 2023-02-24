@@ -31,7 +31,7 @@ form {
   font-size: 15px;
   
   color: rgb(243, 238, 238);
-  background-color: #00BFFF;
+  background-color: rgb(1, 7, 98);
  
   
   transition: all 0.3s ease-in-out;

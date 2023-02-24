@@ -186,20 +186,23 @@ onMounted(() => {
 <style scoped>
 .container{
   margin: auto;
-  background: #00BFFF;
-  width: 70%;
-  border: solid 1px rgba(114, 113, 113, 0.753);
-  transition: all 0.8s ease-in-out;
+  margin-top: -3%;
+  width: 80%;
+  border: solid 10px black(114, 113, 113, 0.753);
+  transition: all 2.5s ease-in-out;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   
 }
 
 .container:hover{
   margin: auto;
-  background: #00BFFF;
+  margin-top: -3%;
+  background: rgb(1, 7, 98);
   width: 90%;
   border: solid px black;
   
-  box-shadow: 4px 4px 10px black;
+  box-shadow: 4px 4px 10px #00BFFF;
   
   
 }

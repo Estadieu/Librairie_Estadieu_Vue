@@ -26,11 +26,11 @@ form {
       
       input[type="text"],
       textarea {
-        width: 50%;
+        width: 40%;
         padding:3px;
         
         border-radius: 2px;
-        border: 1px solid white;
+        border: 1px solid rgba(0, 0, 0, 0.753);
         font-size: 16px;
         transition: all 0.3s ease-in-out;
       }
@@ -45,7 +45,7 @@ form {
       input[type="submit"] {
         padding: 5px 10px;
         border-radius: 5px;
-        background-color: rgba(114, 113, 113, 0.753);
+        background-color: rgb(1, 7, 98);
         color: white;
         border: none;
         font-size: 13px;
@@ -54,7 +54,7 @@ form {
       }
       
       input[type="submit"]:hover {
-        background-color: white;
+        background-color: rgb(124, 120, 125);
       }
       
       .form-group {
